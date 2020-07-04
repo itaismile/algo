@@ -24,7 +24,7 @@ public class start1 {
      * @description: 多数元素
      *  使用的摩尔投票法
      * @author: xiedp
-     * @time: 2020/7/3
+     * @time: 2020/7/4
      * @return:
      */
     public static  int majorityElement(int[] nums) {
