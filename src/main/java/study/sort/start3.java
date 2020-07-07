@@ -1,7 +1,9 @@
 package study.sort;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * @description: 存在重复元素 II
@@ -37,6 +39,30 @@ public class start3 {
                 }
             }
              map.put(nums[i],i);
+        }
+        return false;
+    }
+
+    /**
+     *
+     * @description: 219. 存在重复元素 II
+     *
+     * 利用HashSet 超过k也没有就把i-k之前的元素删除
+     *
+     * @author: xiedp
+     * @time: 2020/7/7
+     * @return:
+     */
+    public static boolean containsNearbyDuplicate2(int[] nums, int k) {
+        Set<Integer> set = new HashSet<Integer>();
+        for (int i = 0; i < nums.length; i++) {
+            if (set.contains(nums[i])){
+                return true;
+            }
+            set.add(nums[i]);
+            if(set.size() == k+1){
+                set.remove(nums[i-k]);
+            }
         }
         return false;
     }
