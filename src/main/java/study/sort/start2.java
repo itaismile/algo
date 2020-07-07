@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @description: 1、存在重复元素 2、
+ * @description: 1、存在重复元素 2、只出现一次的数字
  * @author: Xdp
  * @time: 2020/7/6
  */
