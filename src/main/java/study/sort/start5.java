@@ -1,17 +1,12 @@
 package study.sort;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
 /**
  * @description: 209. 长度最小的子数组
  *
  *  给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。
  *
  * @author: Xdp
- * @time: 2020/7/7
+ * @time: 2020/7/9
  */
 public class start5 {
 
@@ -32,7 +27,7 @@ public class start5 {
      * 暴力破解 循环累加 得到是否满足需求的值
      *
      * @author: xiedp
-     * @time: 2020/7/7
+     * @time: 2020/7/9
      * @return:
      */
     public static int minSubArrayLen(int s, int[] nums) {
