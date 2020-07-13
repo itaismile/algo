@@ -8,7 +8,7 @@ package study.sort;
  * @author: Xdp
  * @time: 2020/7/9
  */
-public class start5 {
+public class Start5 {
 
 
     public static void main(String[] args) {

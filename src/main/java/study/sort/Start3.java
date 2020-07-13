@@ -10,7 +10,7 @@ import java.util.Set;
  * @author: Xdp
  * @time: 2020/7/7
  */
-public class start3 {
+public class Start3 {
 
 
     public static void main(String[] args) {

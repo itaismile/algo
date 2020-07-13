@@ -12,7 +12,7 @@ import java.util.TreeSet;
  * @author: Xdp
  * @time: 2020/7/8
  */
-public class start4 {
+public class Start4 {
 
 
     public static void main(String[] args) {

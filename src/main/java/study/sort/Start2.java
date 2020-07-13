@@ -8,7 +8,7 @@ import java.util.Map;
  * @author: Xdp
  * @time: 2020/7/6
  */
-public class start2 {
+public class Start2 {
 
 
     public static void main(String[] args) {

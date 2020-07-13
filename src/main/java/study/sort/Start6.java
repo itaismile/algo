@@ -10,7 +10,7 @@ package study.sort;
  * @author: Xdp
  * @time: 2020/7/10
  */
-public class start6 {
+public class Start6 {
 
 
     public static void main(String[] args) {
